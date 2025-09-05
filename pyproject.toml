@@ -1,7 +1,7 @@
 [project]
 name = "open-parse-api"
 version = "1.0.0"
-description = "A lightweight REST API wrapper around open-parse"
+description = "A lightweight REST API wrapper for open-parse"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = ["fastapi[standard]>=0.116.1", "openparse>=0.7.0"]
