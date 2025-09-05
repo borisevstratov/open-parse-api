@@ -100,4 +100,4 @@ services:
 
 ### CI/CD
 
-This repository includes a GitHub Action [.github/workflows/build.yml](.github/workflows/build.yml) that automatically builds and pushes the Docker image on every push to `master` branch to `ghcr.io<your-username-or-org>open-parse-api`
+This repository includes a GitHub Action [.github/workflows/build.yml](.github/workflows/build.yml) that automatically builds and pushes the Docker image on every push to `master` branch to `ghcr.io/<your-username-or-org>/open-parse-api`
