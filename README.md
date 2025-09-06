@@ -50,8 +50,7 @@ curl -X POST -F "file=@/path/to/your/document.pdf" http://localhost:8000/api/par
 ## Customization
 
 - **Pipelines**
-Feel free to fork and adjust routes, pipelines and other config in to fit your use case.
-You can modify extraction rules, pipelines, or table parsing algorithms.
+You can modify API routes, response formats, extraction rules, pipelines, or table parsing algorithms.
   - Pipelines: [app/utils/parser.py](app/utils/parser.py)
   - Routes: [app/routers/parse.py](app/routers/parse.py)
 
